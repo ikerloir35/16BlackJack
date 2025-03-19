@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">droid&amp;</string>
+    <string name="email_hint">Introduce tu email</string>
+    <string name="password_hint">Introduce password</string>
+    <string name="login">Iniciar</string>
+    <string name="imagen_logo">imagen logo</string>
+    <string name="partida">Partida</string>
+    <string name="scoring">Puntuación</string>
+    <string name="settings">Configuración</string>
+    <string name="fecha">Fecha</string>
+    <string name="monedas">Monedas</string>
+    <string name="estado">Estado</string>
+    <string name="scoringinicial">Puntuación inicial</string>
+    <string name="scoringfinal">Puntuación final</string>
+    <string name="menuprincipal">Menu principal</string>
+    <string name="musicoff">Música Off</string>
+    <string name="musicon">Música On</string>
+    <string name="selectmusic">Seleccionar música</string>
+    <string name="idiomas">Idiomas</string>
+    <string name="apuesta">Apuesta :</string>
+    <string name="paga">BLACKJACK SE PAGA 3 A 2</string>
+    <string name="seplanta">El repartidor se planta con un 17 blando</string>
+    <string name="carta">CARTA</string>
+    <string name="meplanto">PLANTAR</string>
+    <string name="borra">Borra</string>
+    <string name="apostar">Apostar</string>
+    <string name="principal">Principal</string>
+    <string name="captura">Captura</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="singingoogle">Inicia con Google</string>
+    <string name="bote">Bote</string>
+</resources>

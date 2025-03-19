@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <!-- Fecha -->
+    <TextView
+        android:id="@+id/textoFecha"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/fecha"
+        android:textSize="14sp" />
+
+    <!-- Estado -->
+    <TextView
+        android:id="@+id/textoEstado"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/estado"
+        android:textSize="14sp" />
+
+    <!-- Scoring Inicial -->
+    <TextView
+        android:id="@+id/textoScoringInicial"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/scoringinicial"
+        android:textSize="14sp" />
+
+    <!-- Scoring Final -->
+    <TextView
+        android:id="@+id/textoScoringFinal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/scoringfinal"
+        android:textSize="14sp" />
+</LinearLayout>

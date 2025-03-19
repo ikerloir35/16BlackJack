@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/splashscreen_fondo"
+    android:padding="16dp">
+
+    <!-- Información del bote -->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/transparent">
+
+        <ImageView
+            android:id="@+id/explosion_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/explosion_sin_fondo"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:id="@+id/bote_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bote"
+            android:textSize="24sp"
+            android:textColor="@android:color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="120dp"
+            android:fontFamily="sans-serif-medium"
+            android:shadowColor="#000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="3"/>
+
+        <TextView
+            android:id="@+id/bote_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$0"
+            android:textSize="30sp"
+            android:textColor="@android:color/white"
+            android:layout_below="@id/bote_label"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-light"
+            android:shadowColor="#000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="3" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/lista_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Top Jugadores"
+        android:textSize="24sp"
+        android:padding="8dp"
+        android:gravity="center"
+        android:textColor="@android:color/white" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_top_jugadores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop = "4dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button_mainmenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/menuprincipal"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+</LinearLayout>

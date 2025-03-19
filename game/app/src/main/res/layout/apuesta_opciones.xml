@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:layout_width="362dp"
+        android:layout_height="179dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/caja_opciones"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnBorrarApuesta"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:text="@string/borra" />
+
+            <Button
+                android:id="@+id/btnHacerApuesta"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="30dp"
+                android:text="@string/apostar" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/casillaApuesta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <ImageButton
+                android:id="@+id/btnMoneda5"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/m5"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="fitCenter"
+                android:contentDescription="5"
+                android:soundEffectsEnabled="false"
+                android:padding="0dp"/>
+
+            <ImageButton
+                android:id="@+id/btnMoneda10"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/m10"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="fitCenter"
+                android:contentDescription="10"
+                android:soundEffectsEnabled="false"
+                android:padding="0dp"/>
+
+            <ImageButton
+                android:id="@+id/btnMoneda25"
+                android:layout_width="48dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/m25"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="fitCenter"
+                android:contentDescription="25"
+                android:soundEffectsEnabled="false"
+                android:padding="0dp"/>
+
+            <ImageButton
+                android:id="@+id/btnMoneda50"
+                android:layout_width="48dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/m50"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="fitCenter"
+                android:contentDescription="50"
+                android:soundEffectsEnabled="false"
+                android:padding="0dp"/>
+
+            <ImageButton
+                android:id="@+id/btnMoneda100"
+                android:layout_width="48dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/m100"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="fitCenter"
+                android:contentDescription="100"
+                android:soundEffectsEnabled="false"
+                android:padding="0dp"/>
+
+            <ImageButton
+                android:id="@+id/btnMoneda250"
+                android:layout_width="48dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/m250"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="fitCenter"
+                android:contentDescription="250"
+                android:soundEffectsEnabled="false"
+                android:padding="0dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
+

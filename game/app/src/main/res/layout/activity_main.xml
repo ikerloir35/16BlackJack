@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/inicial"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splashscreen_fondo"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="379dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical"
+        android:translationY="250dp">
+
+        <!--<EditText
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:autofillHints=""
+            android:background="#6BA4A0A0"
+            android:backgroundTint="#C3BDBD"
+            android:backgroundTintMode="src_in"
+            android:ems="10"
+            android:hint="@string/email_hint"
+            android:inputType="textEmailAddress"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#7A6F6F"
+            android:ems="10"
+            android:hint="@string/password_hint"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            android:textSize="24sp" />-->
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/btnGoogleSignIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/singingoogle" />
+    </LinearLayout>
+
+    <!--<Button
+        android:id="@+id/loginbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="80dp"
+        android:backgroundTint="@color/dorado"
+        android:text="@string/login"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/logo_inicio"
+        android:layout_width="64dp"
+        android:layout_height="75dp"
+        android:layout_gravity="top|end"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/imagen_logo"
+        android:src="@drawable/logo_solo" />-->
+
+</FrameLayout>
