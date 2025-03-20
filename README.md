@@ -98,10 +98,7 @@ For production deployment:
 3. Consider using a secure key management service
 4. Follow the principle of least privilege for API access
 
-## License
-
-[Your License Information]
-
 ## Contributing
 
-[Your Contributing Guidelines]
+No public contribution Allowed
+
