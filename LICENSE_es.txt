@@ -1,0 +1,106 @@
+Acuerdo de Licencia de Software Propietario
+(Para la aplicación de gestión del tiempo)
+
+Última actualización: 19/03/2025
+
+Este Acuerdo de Licencia de Software Propietario ("Acuerdo") es celebrado entre Iker López Iribas ("Licenciante") 
+y la persona o entidad ("Licenciatario") que descarga, instala o utiliza de cualquier otra forma la aplicación 
+Time Management App ("Software").
+
+Al utilizar el Software, el Licenciatario acepta los términos de este Acuerdo. Si el Licenciatario no está 
+de acuerdo, no debe utilizar el Software.
+
+1. CONCESIÓN DE LICENCIA
+1.1 Concesión:
+El Licenciante otorga al Licenciatario una licencia limitada, no exclusiva, no transferible y revocable 
+para utilizar el Software exclusivamente para fines personales o comerciales internos.
+
+1.2 Restricciones: El Licenciatario no deberá:
+Modificar, distribuir, sublicenciar, alquilar, vender o explotar comercialmente el Software.
+Realizar ingeniería inversa, descompilar o desensamblar el Software.
+Eliminar o alterar cualquier aviso de propiedad, marca comercial o logotipo.
+Utilizar el Software para desarrollar un producto competidor.
+1.3 Propiedad:
+El Software es propiedad del Licenciante y está protegido por las leyes de derechos de autor y propiedad 
+intelectual. El Licenciatario no adquiere derechos de propiedad ni derechos de propiedad intelectual sobre 
+el Software.
+
+2. TARIFAS Y PAGOS
+2.1 Tarifas de Licencia:
+Si corresponde, el Licenciatario acepta pagar las tarifas especificadas para acceder al Software. La falta 
+de pago puede dar lugar a la cancelación del acceso.
+
+2.2 No Reembolsos:
+Los pagos no son reembolsables, salvo que lo exija la legislación aplicable.
+
+3. SOPORTE Y ACTUALIZACIONES
+3.1 Soporte:
+El Licenciante puede (pero no está obligado a) proporcionar soporte técnico.
+
+3.2 Actualizaciones:
+El Licenciante puede lanzar actualizaciones, que pueden estar sujetas a términos adicionales. El 
+Licenciatario es responsable de garantizar la compatibilidad con las actualizaciones.
+
+4. PRIVACIDAD Y USO DE DATOS
+4.1 Recopilación de Datos:
+El Software puede recopilar y procesar datos según lo descrito en la Política de Privacidad del Licenciante.
+
+4.2 Cumplimiento:
+El Licenciatario se compromete a cumplir con todas las leyes de privacidad aplicables al utilizar el Software.
+
+5. DURACIÓN Y TERMINACIÓN
+5.1 Duración:
+Este Acuerdo permanecerá vigente hasta su terminación.
+
+5.2 Terminación por parte del Licenciatario:
+El Licenciatario puede rescindir este Acuerdo eliminando el Software y cesando su uso.
+
+5.3 Terminación por parte del Licenciante:
+El Licenciante puede rescindir este Acuerdo de inmediato si el Licenciatario viola alguno de sus términos.
+
+5.4 Efectos de la Terminación:
+Al rescindirse el Acuerdo, el Licenciatario deberá dejar de utilizar el Software y eliminar todas las copias.
+
+6. EXENCIÓN DE GARANTÍAS
+6.1 "Tal como está":
+EL SOFTWARE SE PROPORCIONA "TAL CUAL" SIN GARANTÍAS DE NINGÚN TIPO.
+
+6.2 Sin Garantías:
+EL LICENCIANTE RENUNCIA A TODAS LAS GARANTÍAS IMPLÍCITAS, INCLUYENDO LAS DE ADECUACIÓN PARA UN PROPÓSITO PARTICULAR.
+
+7. LIMITACIÓN DE RESPONSABILIDAD
+7.1 Ausencia de Responsabilidad por Daños:
+EL LICENCIANTE NO SERÁ RESPONSABLE DE NINGÚN DAÑO INDIRECTO, INCIDENTAL, ESPECIAL O CONSECUENTE DERIVADO 
+DEL USO DEL SOFTWARE.
+
+7.2 Responsabilidad Máxima:
+LA RESPONSABILIDAD TOTAL DEL LICENCIANTE NO EXCEDERÁ LA CANTIDAD PAGADA POR EL LICENCIATARIO POR EL SOFTWARE.
+
+8. LEGISLACIÓN APLICABLE Y RESOLUCIÓN DE DISPUTAS
+8.1 Legislación Aplicable:
+Este Acuerdo se regirá por las leyes de España, sin considerar sus principios de conflicto de leyes.
+
+8.2 Resolución de Disputas:
+Cualquier disputa se resolverá mediante arbitraje vinculante en Palma de Mallorca, salvo que la legislación 
+exija lo contrario.
+
+9. DISPOSICIONES GENERALES
+9.1 Acuerdo Completo:
+Este Acuerdo constituye el acuerdo total entre las partes.
+
+9.2 Modificaciones:
+El Licenciante se reserva el derecho de modificar este Acuerdo en cualquier momento, notificando al Licenciatario.
+
+9.3 Divisibilidad:
+Si alguna disposición se considera inválida, el resto del Acuerdo seguirá en vigor.
+
+9.4 No Renuncia:
+La falta de aplicación de cualquier disposición no implica la renuncia al derecho de hacerla cumplir 
+posteriormente.
+
+ACEPTACIÓN
+Al descargar, instalar o utilizar el Software, el Licenciatario reconoce y acepta los términos de este Acuerdo.
+
+Iker López Iribas
+📧 ijonesmsu@gmail.com
+🌍 iker.ijonesmsu.cc

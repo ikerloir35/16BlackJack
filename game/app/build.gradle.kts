@@ -18,6 +18,19 @@ android {
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    sourceSets {
+        getByName("main") {
+            assets.srcDirs("src/main/assets")
+        }
+    }
+
+    tasks.register("copyEnvFile", Copy::class) {
+        from("../.env")
+        into("src/main/assets")
+    }
+
+    tasks.getByName("preBuild").dependsOn("copyEnvFile")
+
     buildTypes {
         release {
             isMinifyEnabled = false

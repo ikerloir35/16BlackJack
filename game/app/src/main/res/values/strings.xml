@@ -31,7 +31,6 @@
     <string name="captura">Screenshot</string>    
     <string name="ayuda">Help</string>
     <string name="singingoogle">Sign in with Google</string>
-    <string name="default_web_client_id" translatable="false">665682424959-pnt6e5evl4ct80ot81behtj7aardppsb.apps.googleusercontent.com</string>
     <string name="bote">JackPot</string>
 
 </resources>

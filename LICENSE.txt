@@ -1,0 +1,103 @@
+Proprietary Software License Agreement
+(For the Time Management App)
+
+Last Updated: 19/03/2025
+This Proprietary Software License Agreement ("Agreement") is made between Iker López Iribas ("Licensor") 
+and the individual or entity ("Licensee") who downloads, installs, or otherwise uses the Time 
+Management App ("Software").
+
+By using the Software, the Licensee agrees to be bound by the terms of this Agreement. If the Licensee 
+does not agree, they must not use the Software.
+
+1. LICENSE GRANT
+1.1 Grant:
+Licensor grants Licensee a limited, non-exclusive, non-transferable, revocable license to use 
+the Software solely for personal or internal business purposes.
+
+1.2 Restrictions – Licensee shall not:
+Modify, distribute, sublicense, lease, sell, or commercially exploit the Software.
+Reverse engineer, decompile, or disassemble the Software.
+Remove or alter any proprietary notices, trademarks, or logos.
+Use the Software to create a competing product.
+
+1.3 Ownership: 
+The Software is owned by Licensor and protected by copyright and intellectual property laws. 
+Licensee acquires no ownership or intellectual property rights.
+
+2. FEES & PAYMENTS
+2.1 License Fees:
+If applicable, Licensee agrees to pay the specified fees for access to the 
+Software. Non-payment may result in termination of access.
+
+2.2 No Refunds: 
+Payments are non-refundable unless required by applicable law.
+
+3. SUPPORT & UPDATES
+3.1 Support: 
+Licensor may (but is not required to) provide customer support.
+
+3.2 Updates: 
+Licensor may release updates, which may be subject to additional terms. 
+Licensee is responsible for ensuring compatibility with updates.
+
+4. PRIVACY & DATA USAGE
+4.1 Data Collection: 
+The Software may collect and process data as described in Licensor’s Privacy Policy.
+
+4.2 Compliance: 
+Licensee agrees to comply with all applicable privacy laws when using the Software.
+
+5. TERM & TERMINATION
+5.1 Term: 
+This Agreement is effective until terminated.
+
+5.2 Termination by Licensee:
+Licensee may terminate this Agreement by deleting the Software and ceasing use.
+
+5.3 Termination by Licensor: 
+Licensor may terminate this Agreement immediately if Licensee violates any terms.
+
+5.4 Effect of Termination: 
+Upon termination, Licensee must cease using the Software and delete all copies.
+
+6. DISCLAIMER OF WARRANTIES
+6.1 "As-Is" Basis:
+THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTIES OF ANY KIND.
+
+6.2 No Guarantees:
+LICENSOR DISCLAIMS ALL IMPLIED WARRANTIES, INCLUDING FITNESS FOR A PARTICULAR PURPOSE.
+
+7. LIMITATION OF LIABILITY
+7.1 No Liability for Damages:
+LICENSOR SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, 
+OR CONSEQUENTIAL DAMAGES ARISING FROM THE USE OF THE SOFTWARE.
+
+7.2 Maximum Liability: 
+LICENSOR’S TOTAL LIABILITY SHALL NOT EXCEED THE AMOUNT PAID BY LICENSEE FOR THE SOFTWARE.
+
+8. GOVERNING LAW & DISPUTE RESOLUTION
+8.1 Governing Law: 
+This Agreement shall be governed by the laws of Spain, without regard to conflict of laws principles.
+
+8.2 Dispute Resolution:
+Any disputes shall be resolved through binding arbitration in Palma de Mallorca, unless otherwise required by law.
+
+9. GENERAL PROVISIONS
+9.1 Entire Agreement:
+This Agreement constitutes the entire agreement between the parties.
+
+9.2 Amendments:
+Licensor reserves the right to modify this Agreement at any time, with notice to Licensee.
+
+9.3 Severability:
+If any provision is found to be invalid, the rest of the Agreement remains in effect.
+
+9.4 No Waiver:
+Failure to enforce any provision does not waive the right to enforce it later.
+
+ACCEPTANCE
+By downloading, installing, or using the Software, Licensee acknowledges and agrees to the terms of this Agreement.
+
+Iker López Iribas
+ijonesmsu@gmail.com
+iker.ijonesmsu.cc

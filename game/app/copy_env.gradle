@@ -1,0 +1,16 @@
+android {
+    // ... existing android config ...
+
+    sourceSets {
+        main {
+            assets.srcDirs = ['src/main/assets']
+        }
+    }
+}
+
+task copyEnvFile(type: Copy) {
+    from '../.env'
+    into 'src/main/assets'
+}
+
+preBuild.dependsOn copyEnvFile 

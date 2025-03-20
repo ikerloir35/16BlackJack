@@ -7,6 +7,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.droid.config.Config
 import com.example.droid.gestores.GestorDBFirebase
 import com.example.droid.gestores.GestorIdioma
 import com.example.droid.gestores.GestorMusica
@@ -20,8 +21,6 @@ import com.google.firebase.auth.GoogleAuthProvider
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-
-
 class MainActivity : AppCompatActivity() {
     private lateinit var authentication: FirebaseAuth
     private lateinit var googleSignInClient: GoogleSignInClient
@@ -32,6 +31,9 @@ class MainActivity : AppCompatActivity() {
         GestorIdioma.cambiarIdioma(this,savedLanguage)
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
+
+        // Initialize configuration first
+        Config.initialize(this)
 
         setContentView(R.layout.activity_main)
         //val emailEditText = findViewById<EditText>(R.id.email)
@@ -51,23 +53,23 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }*/
         //autenticación en firebase con google id
-        var botonLoginGoogle = findViewById<com.google.android.gms.common.SignInButton>(R.id.btnGoogleSignIn)
+        // Initialize Firebase Authentication
         authentication = FirebaseAuth.getInstance()
 
-        val googleOptions = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN).requestIdToken(getString(R.string.default_web_client_id))
+        // Configure Google Sign In with environment variable
+        val googleOptions = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+            .requestIdToken(Config.getFirebaseWebClientId())
             .requestEmail()
             .build()
-        googleSignInClient = GoogleSignIn.getClient(this,googleOptions)
+        googleSignInClient = GoogleSignIn.getClient(this, googleOptions)
 
-        botonLoginGoogle.setOnClickListener(){
+        // Set up Google Sign In button
+        var botonLoginGoogle = findViewById<com.google.android.gms.common.SignInButton>(R.id.btnGoogleSignIn)
+        botonLoginGoogle.setOnClickListener {
             val login = googleSignInClient.signInIntent
             determinarganador()
-            startActivityForResult(login,RC_SIGN_IN)
-            
+            startActivityForResult(login, RC_SIGN_IN)
         }
-
-
-
     }
 
     override fun onStop() {
