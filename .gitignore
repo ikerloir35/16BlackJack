@@ -1,0 +1,4 @@
+# Sensitive files
+game/app/google-services.json
+game/app/src/main/assets/Help.html
+.env 
