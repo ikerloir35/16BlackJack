@@ -1,4 +1,4 @@
-# Droid Blackjack Game
+# 16Blackjack Game
 
 ## Environment Setup
 
