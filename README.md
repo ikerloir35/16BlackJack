@@ -3,9 +3,15 @@
 ## Project Summary
 
 ### Purpose
-This Android application is a modern implementation of the classic BlackJack card game. The game features a clean, intuitive interface while maintaining the traditional rules and excitement of BlackJack.
+
+Developmening of an Android Game application.
+
+We designed a version of the classic BlackJack card game. It features a clean, intuitive interface while maintaining some basic traditional rules of BlackJack. Used Android tools for interacting with the calendar, camara, notifications, music, and other features.
+
+The persistency is obtained by using a local database with SQLLite and a cloud database with Firebase. Google Oauth has been used for user authentication.
 
 ### Technology Stack
+
 - **Language**: Kotlin
 - **Platform**: Android
 - **Architecture**: MVVM (Model-View-ViewModel)
@@ -18,6 +24,7 @@ This Android application is a modern implementation of the classic BlackJack car
   - Environment-based Configuration Management
 
 ### Features
+
 - **Authentication**:
   - Google Sign-In integration
   - Secure user session management
@@ -40,6 +47,7 @@ This Android application is a modern implementation of the classic BlackJack car
   - Modular architecture
 
 ### Security
+
 - **Authentication Security**:
   - OAuth 2.0 implementation for Google Sign-In
   - Secure token management
@@ -55,21 +63,25 @@ This Android application is a modern implementation of the classic BlackJack car
   - Error handling
 
 ### Co-Developers
+
 - **Lead Developer**: [Your Name]
-   - Iker López Iribas
-   - Damià Belles Sampera
+  - Iker López Iribas
+  - Damià Belles Sampera
 - **Contributors**:
-   - Sebastián Dos Santos Librandi
+  - Sebastián Dos Santos Librandi
 
 ## Environment Setup
 
 ### Prerequisites
+
 - Android Studio Hedgehog (2023.1.1) or newer
 - JDK 21 or higher
 - Git
 
 ### Required API Keys
+
 1. **Google API Key**
+
    - Purpose: Firebase Authentication and Google Sign-In
    - Location: Google Cloud Console
    - Required Scopes: Google Sign-In API
@@ -82,12 +94,14 @@ This Android application is a modern implementation of the classic BlackJack car
 ### Setup Instructions
 
 1. **Clone the Repository**
+
    ```bash
    git clone https://github.com/yourusername/16BlackJack_repo.git
    cd 16BlackJack_repo
    ```
 
 2. **Environment Configuration**
+
    - Copy `.env.example` to `.env`
    - Fill in the required API keys:
      ```
@@ -97,6 +111,7 @@ This Android application is a modern implementation of the classic BlackJack car
      ```
 
 3. **Build Configuration**
+
    - The project uses Gradle with Kotlin DSL
    - Environment variables are automatically copied to assets during build
    - No manual configuration needed after setting up `.env`
@@ -109,12 +124,14 @@ This Android application is a modern implementation of the classic BlackJack car
 ### Security Best Practices
 
 1. **API Key Management**
+
    - Never commit `.env` file to version control
    - Use different API keys for development and production
    - Regularly rotate API keys
    - Restrict API key usage in Google Cloud Console
 
 2. **Code Security**
+
    - All sensitive data is loaded from environment variables
    - No hardcoded credentials in source code
    - Secure error handling and logging
@@ -129,12 +146,14 @@ This Android application is a modern implementation of the classic BlackJack car
 ### Troubleshooting
 
 1. **Build Issues**
+
    - Ensure JDK 21 is properly installed
    - Verify environment variables are set correctly
    - Check Gradle sync status
    - Clean and rebuild project
 
 2. **Runtime Issues**
+
    - Verify API keys are valid
    - Check internet connectivity
    - Review logcat for detailed error messages
@@ -149,6 +168,7 @@ This Android application is a modern implementation of the classic BlackJack car
 ### Production Deployment
 
 1. **Pre-deployment Checklist**
+
    - Update API keys for production
    - Verify all security measures
    - Test on multiple devices
@@ -156,6 +176,7 @@ This Android application is a modern implementation of the classic BlackJack car
    - Check performance metrics
 
 2. **Release Process**
+
    - Update version numbers
    - Generate signed APK/Bundle
    - Test release build
@@ -168,8 +189,9 @@ This Android application is a modern implementation of the classic BlackJack car
    - Maintain security patches
 
 ## License
+
 [Your License Here]
 
 ## Contributing
-[Your Contributing Guidelines Here]
 
+[Your Contributing Guidelines Here]

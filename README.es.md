@@ -3,9 +3,15 @@
 ## Resumen del Proyecto
 
 ### Propósito
-Esta aplicación Android es una implementación moderna del clásico juego de BlackJack. El juego presenta una interfaz limpia e intuitiva mientras mantiene las reglas tradicionales y la emoción del BlackJack.
+
+Desarrollo de un Juego para Android.
+
+Hemos diseñado una version del clasico juego de cartas BlackJack. Cuenta con una interfaz limpia e intuitiva, manteniendo reglas básicas tradicionales del BlackJack. Se ha utilizado las utilidades de Android para la interacción con el calendario, la cámara, las notificaciones, la música y otras funciones.
+
+La persistencia se logra mediante el uso de una base de datos local con SQLite y una base de datos en la nube con Firebase. Para la autenticación de usuarios, se ha utilizado Google OAuth.
 
 ### Stack Tecnológico
+
 - **Lenguaje**: Kotlin
 - **Plataforma**: Android
 - **Arquitectura**: MVVM (Modelo-Vista-VistaModelo)
@@ -18,6 +24,7 @@ Esta aplicación Android es una implementación moderna del clásico juego de Bl
   - Gestión de Configuración basada en Variables de Entorno
 
 ### Características
+
 - **Autenticación**:
   - Integración de Inicio de Sesión de Google
   - Gestión segura de sesiones de usuario
@@ -40,6 +47,7 @@ Esta aplicación Android es una implementación moderna del clásico juego de Bl
   - Arquitectura modular
 
 ### Seguridad
+
 - **Seguridad de Autenticación**:
   - Implementación de OAuth 2.0 para Inicio de Sesión de Google
   - Gestión segura de tokens
@@ -55,21 +63,25 @@ Esta aplicación Android es una implementación moderna del clásico juego de Bl
   - Manejo de errores
 
 ### Co-Desarrolladores
+
 - **Desarrollador Principal**: [Tu Nombre]
-   - Iker López Iribas
-   - Damià Belles Sampera
+  - Iker López Iribas
+  - Damià Belles Sampera
 - **Contribuidores**:
-   - Sebastián Dos Santos Librandi
+  - Sebastián Dos Santos Librandi
 
 ## Configuración del Entorno
 
 ### Prerrequisitos
+
 - Android Studio Hedgehog (2023.1.1) o más reciente
 - JDK 21 o superior
 - Git
 
 ### Claves API Requeridas
+
 1. **Clave API de Google**
+
    - Propósito: Autenticación Firebase e Inicio de Sesión de Google
    - Ubicación: Consola de Google Cloud
    - Ámbitos Requeridos: API de Inicio de Sesión de Google
@@ -82,12 +94,14 @@ Esta aplicación Android es una implementación moderna del clásico juego de Bl
 ### Instrucciones de Configuración
 
 1. **Clonar el Repositorio**
+
    ```bash
    git clone https://github.com/yourusername/16BlackJack_repo.git
    cd 16BlackJack_repo
    ```
 
 2. **Configuración del Entorno**
+
    - Copiar `.env.example` a `.env`
    - Completar las claves API requeridas:
      ```
@@ -97,6 +111,7 @@ Esta aplicación Android es una implementación moderna del clásico juego de Bl
      ```
 
 3. **Configuración de Compilación**
+
    - El proyecto usa Gradle con Kotlin DSL
    - Las variables de entorno se copian automáticamente a assets durante la compilación
    - No se requiere configuración manual después de configurar `.env`
@@ -109,12 +124,14 @@ Esta aplicación Android es una implementación moderna del clásico juego de Bl
 ### Mejores Prácticas de Seguridad
 
 1. **Gestión de Claves API**
+
    - Nunca commitear el archivo `.env` al control de versiones
    - Usar diferentes claves API para desarrollo y producción
    - Rotar regularmente las claves API
    - Restringir el uso de claves API en la Consola de Google Cloud
 
 2. **Seguridad del Código**
+
    - Todos los datos sensibles se cargan desde variables de entorno
    - Sin credenciales hardcodeadas en el código fuente
    - Manejo seguro de errores y logging
@@ -129,12 +146,14 @@ Esta aplicación Android es una implementación moderna del clásico juego de Bl
 ### Solución de Problemas
 
 1. **Problemas de Compilación**
+
    - Asegurar que JDK 21 está instalado correctamente
    - Verificar que las variables de entorno están configuradas correctamente
    - Comprobar estado de sincronización de Gradle
    - Limpiar y recompilar el proyecto
 
 2. **Problemas en Tiempo de Ejecución**
+
    - Verificar que las claves API son válidas
    - Comprobar conectividad a internet
    - Revisar logcat para mensajes de error detallados
@@ -149,6 +168,7 @@ Esta aplicación Android es una implementación moderna del clásico juego de Bl
 ### Despliegue en Producción
 
 1. **Lista de Verificación Pre-despliegue**
+
    - Actualizar claves API para producción
    - Verificar todas las medidas de seguridad
    - Probar en múltiples dispositivos
@@ -156,6 +176,7 @@ Esta aplicación Android es una implementación moderna del clásico juego de Bl
    - Comprobar métricas de rendimiento
 
 2. **Proceso de Lanzamiento**
+
    - Actualizar números de versión
    - Generar APK/Bundle firmado
    - Probar build de lanzamiento
@@ -168,7 +189,9 @@ Esta aplicación Android es una implementación moderna del clásico juego de Bl
    - Mantener parches de seguridad
 
 ## Licencia
+
 [Tu Licencia Aquí]
 
 ## Contribuir
-[Tus Guías de Contribución Aquí] 
+
+[Tus Guías de Contribución Aquí]
